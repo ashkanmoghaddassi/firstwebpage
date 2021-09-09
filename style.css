@@ -1,0 +1,112 @@
+/* Split the screen in half */
+
+.left {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+  }
+
+  .right {
+    
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    
+
+  } 
+  
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    margin-right: 0px;
+}
+
+#content p{
+
+ color:darkred; 
+ font-family: monospace;
+ border: 1px;
+ border-color: black;
+ border-style: solid;
+ border-radius: 8px;
+ background-color: lightgray;
+
+    
+}
+
+
+#image1{
+    /*text-align: right;
+    float: right;
+    width: auto;
+    height: 300px;
+    margin-left: 550px;
+    margin-top:20px; 
+    margin-bottom:20px; */
+    border-radius: 8px;
+    
+    
+}
+
+#image2{
+    /*float: right;
+    width: auto;
+    height: 300px;
+    margin-top:20px; 
+    margin-bottom:20px; */
+    border-radius: 8px;
+
+}
+/*#one{
+    
+    position: relative;
+    float: right;
+    top: 33.5%;
+    left: 48.5%;
+    font-family: cursive;
+    
+    
+    
+    
+}
+*/
+
+button {
+    transition-duration: 0.2s;
+    background-color: gray;
+    color: white;
+    border-radius: 8px;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+button:hover {
+    background-color: maroon; /* Green */
+    color: white;
+  }
+
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
